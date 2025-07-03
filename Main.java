@@ -57,7 +57,7 @@ public class Main {
             }
             System.out.println();
             System.out.println("Health:" + health + "/100");
-            System.out.println ("Strager Health:" + stranger + "/50");
+            System.out.println ("stranger Health:" + stranger + "/50");
             
             System.out.print(">");
             command = inp.nextLine();
@@ -133,7 +133,7 @@ public class Main {
                 else if(command.equals("Attack with the screwdriver") || command.equals("Attack with the screwdriver.") || command.equals("Attack with screwdriver") || command.equals("Attack with screwdriver.")){
                     if (hasScrewdriver){
                         System.out.println("_______________________________________________________________________");
-                        System.out.println("You hit the stranger with a srewdriver!!!");
+                        System.out.println("You hit the stranger with a screwdriver!!!");
                         System.out.println("_______________________________________________________________________");
                         System.out.println("The stranger hit you back!!!");
                         System.out.println("_______________________________________________________________________");
